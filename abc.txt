@@ -1,0 +1,22 @@
+1  clear
+    2  pwd
+    3  mkdir fliptest
+    4  cd fliptest
+    5  touch abc.txt bcd.txt
+    6  git init
+    7  cd ~
+    8  sudo yum install git
+    9  cd fliptest
+   10  git init
+   11  git config --global user.email "kashimhonnalli17@gmail.com"
+   12  git config --global user.name "KashimHonnalli17"
+   13  git init
+   14  git branch -M main
+   15  git add .
+   16  git commit -m "first commit"
+   17  git status
+   18  git config credential.helper store
+   19  git remote add origin https://github.com/KashimHonnalli17/fliptest.git
+   20  git push -u origin main
+   21  cd ..
+   22  history
